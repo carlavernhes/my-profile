@@ -1,0 +1,98 @@
+body { 
+   background-color: rgb(255,230,238);
+   color:  rgb(0,21,127);
+   font-family: Courier;
+   font-size: 17px;
+ }
+
+ h1 {
+   color: rgb(100,174,30);
+   font-family: 'BIZ UDPMincho', serif;
+   font-weight: 100;
+   letter-spacing: 5px;
+   font-size: 27px;
+   text-transform: uppercase; 
+ }
+ h2 {
+   color: rgb(100,174,30);
+   font-family: 'BIZ UDPMincho', serif;
+   font-weight: 100;
+   letter-spacing: 2px;
+   font-size: 21px;
+ }
+ a{
+ 	text-decoration: none;
+ 	color:rgb(177,156,216);
+ 	font-weight: bolder;
+ }
+ a:hover {
+ 	color: rgb(255,255,170);
+ }
+
+
+ .container {
+  width: 800px;
+  margin:  40px auto;
+ }
+
+ @media (max-width: 960px) {
+   .container {
+    width: 700px;
+   }
+ }
+
+ @media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+ }
+
+ @media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+ }
+
+
+ .card-white {
+  background-color: lightblue;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px 0px;
+ }
+
+
+ .img-circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+ }
+
+
+ .btn-lightblue {
+   background-color: rgb(255,255,170);
+   color: rgb(177,156,216) ;
+   padding: 15px 20px;
+   border-radius: 4px;
+ }
+
+.list-inline {
+  list-style : none;
+  padding-left: 0px;
+} 
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size:  50px;
+}
+
+
+#introduction p {
+margin-bottom: 40px;
+}
